@@ -109,6 +109,8 @@ window.addEventListener("load", function(){
 	   	launchstatus.innerHTML="Shuttle is ready for launch";
 		}
 	
+		event.preventDefault();
+
 		});
 	});
 
